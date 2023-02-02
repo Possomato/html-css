@@ -27,7 +27,15 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 621px;
+    height: 627px;
     width: 311px;
-    background: url('/desafios/desafio14/imagens/frame-iphonex.png') no-repeat;
+    background: url('/desafios/desafio14/imagens/frame-iphone.png') no-repeat;
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
