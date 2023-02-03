@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <form action="formulario.php">
+        <p>
+            <label for="inom">Nome:</label>
+            <input type="text" name="nom" id="inom" placeholder="Nome Completo">
+        </p>
+        <p>
+            <label for="imed">Média:</label>
+            <input type="number" name="med" id="imed" min="1" max="10" step="0.1" placeholder="0 a 10 required" >
+        </p>
+        <p>
+            <label for="ipe">Período Letivo</label>
+            <input type="month" name="pe" id="ipe" value="2023-01">
+        </p>
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="LIMPAR">
+    </form>
+</body>
+</html>
